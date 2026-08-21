@@ -1,0 +1,16 @@
+{
+  "name": "deepseek-news-research",
+  "version": "1.0.0",
+  "description": "在压缩与稀疏之间，解码 DeepSeek 的纹理 — 31篇论文的本地可交互数字长卷",
+  "type": "module",
+  "repository": "https://github.com/intentlink/deepseek-news-research",
+  "homepage": "https://intentlink.github.io/deepseek-news-research/",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "npx serve .",
+    "dev": "python3 -m http.server 8000",
+    "lint": "npx markdownlint-cli2 \"**/*.md\" --config .markdownlint.json --ignore \"2023/**/*.md\" --ignore \"2024/**/*.md\" --ignore \"2025/**/*.md\" --ignore \"2026/**/*.md\""
+  },
+  "keywords": ["deepseek", "research", "scroll", "5loi"],
+  "license": "MIT"
+}

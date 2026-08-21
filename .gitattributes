@@ -1,0 +1,10 @@
+# Enforce LF for generated files to avoid CI diff on Windows
+data/papers.json eol=lf
+assets/js/data.js eol=lf
+*.md eol=lf
+*.json eol=lf
+*.js eol=lf
+*.css eol=lf
+*.html eol=lf
+*.yml eol=lf
+*.mjs eol=lf
